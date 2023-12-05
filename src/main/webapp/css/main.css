@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-size: 400% 400%;
+
+}
+
+.mainTable {
+    font-family: Consolas, sans-serif;
+    margin-top: auto;
+}
+
+tbody{
+    vertical-align: top;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    background: lightcoral;
+}
+
+button:disabled {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    cursor: not-allowed;
+}
+
+.y {
+    padding-right: 1px
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-style: italic;
+}
+
+.invisible {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    display: inline;
+}
+
+#results-table tr th {
+    position: sticky;
+    top: 0;
+}
